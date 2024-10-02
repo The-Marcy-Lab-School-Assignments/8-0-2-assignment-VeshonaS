@@ -1,4 +1,12 @@
 # 8-0-2-assignment
+# FEEDBACK
+Great start! However, theirs some steps that still needs to be done! 
+- Your back end needs to serve the front ends static files
+- Your serveGifs need to fetch to the giphy API
+- Your server needs a package.json file
+- Your front end needs a proxy
+- Your front end needs to fetch to the back end rather than the api
+- Still need to deploy your link afterward
 
 DEPLOYED LINK: [add your link here](addyourlinkhere)
 
@@ -37,14 +45,14 @@ Before continuing, make sure that these tasks are completed!
 - [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
 - [ ] `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
 - [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
-- [ ] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
+- [x] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
 
 **Server/Frontend Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
+- [x] In `index.js`, the `express()` function is used to create an `app`
 - [ ] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
-- [ ] The `app` listens on an available port (I recommend `8080`)
-- [ ] A `/api/gifs` endpoint exists. 
+- [x] The `app` listens on an available port (I recommend `8080`)
+- [x] A `/api/gifs` endpoint exists. 
 - [ ] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
 - [ ] The frontend `vite.config.js` file has been updated to enable proxy requests
 - [ ] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
